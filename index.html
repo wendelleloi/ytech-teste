@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Rajdhani&family=Roboto+Mono&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="module" src="./index.js"></script>
+
+    <title>Ytech</title>
+  </head>
+  <body>
+    <section id="slider">
+      <div class="slider-container">
+        <!-- slider -->
+        <div class="slider">
+          <!---- card---->
+          <div class="card">
+            <div class="card-infos">
+              <span>
+                <h1 class="card-infos-title"></h1>
+                <h2 class="card-infos-content"></h2>
+              </span>
+            </div>
+            <div class="actives">
+              <i class="fa fa-angle-double-left"></i>
+              <i class="fa fa-angle-double-right"></i>
+            </div>
+          </div>
+          <!---card--->
+        </div>
+        <!-- slider -->
+      </div>
+    </section>
+
+    <section id="hightlight">
+      <!-- hightlight -->
+      <div class="hightlight-container"></div>
+      <!-- hightlight -->
+    </section>
+
+    <section id="contact-form">
+      <div class="contact-form-container">
+        <!-- contact detail -->
+        <div class="contact-detail">
+          <h2>Entre em contato</h2>
+          <ul class="contact-ul">
+            <li class="contact-address"></li>
+
+            <li class="contact-phone"></li>
+
+            <li class="contact-email"></li>
+          </ul>
+
+          <span>
+            <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+          </span>
+        </div>
+        <!-- contact detail -->
+
+        <!-- contact form -->
+        <div class="contact-form">
+          <form action="#" method="post" class="form">
+            <div class="input-group">
+              <div class="input-box">
+                <input
+                  class="input"
+                  type="text"
+                  required
+                  placeholder="Seu nome"
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  class="input"
+                  type="email"
+                  placeholder="E-mail"
+                  pattern="[^ @]*@[^ @]*"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <div class="input-box">
+                <input
+                  class="input"
+                  type="tel"
+                  required
+                  placeholder="Telefone"
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  class="input"
+                  type="text"
+                  required
+                  placeholder="Título"
+                />
+              </div>
+            </div>
+
+            <textarea
+              class="input"
+              rows=""
+              cols=""
+              placeholder="Sua Mensagem..."
+              required
+            ></textarea>
+
+            <button class="inputBtn" type="submit">Enviar</button>
+
+            <div class="success-form">
+              <p>Enviado com sucesso !</p>
+            </div>
+          </form>
+        </div>
+        <!-- contact-form -->
+      </div>
+    </section>
+
+    <section id="map">
+      <!-- map -->
+      <div class="map-container">
+        <div class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15875.20942983002!2d-35.20593919999999!3d-5.88337505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1689298066235!5m2!1spt-PT!2sbr"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen="false"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <!-- map -->
+    </section>
+
+    <section id="footer">
+      <footer>
+        <div class="footer-container">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved |
+            <a
+              href="https://github.com/wendelleloi"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wendell Eloi</a
+            >
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <button class="back-to-top-button">
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+  </body>
+</html>

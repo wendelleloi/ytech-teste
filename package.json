@@ -1,0 +1,12 @@
+{
+  "name": "teste_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx http-server -o --cors -y"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
