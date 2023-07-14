@@ -8,11 +8,10 @@ Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node*
 
 Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[link][yarn]</kbd>, ou através do <kbd>[asdf]</kbd>.
 
-Após ter o **Node** instalado, instale as dependências do **http-server** de forma global, utilizando os comandos:
+Após ter o **Node** instalado, instale as dependências do projeto, utilizando os comandos:
 
 ```sh
-# http-server:
-$ npm install http-server -g
+$ npm install
 
 ```
 
@@ -24,7 +23,7 @@ Abra o terminal no diretório raiz do projeto e execute o seguinte comando:
 
 ```sh
 
-$ npm run server
+$ npm run start
 
 ```
 
@@ -32,7 +31,7 @@ que irá executar o comando abaixo
 
 ```sh
 
-$ npx http-server -o --cors -y
+$ npx webpack serve
 
 ```
 
@@ -40,6 +39,6 @@ $ npx http-server -o --cors -y
 
 ### Utilizando o Website
 
-Após executado um dos comandos acima se o browser não abrir automaticamente, acesse: http://localhost:8080 ou http://localhost:8081 caso a porta 8080 ja esteja sendo usada.
+Após executado um dos comandos acima se o browser não abrir automaticamente, acesse: http://localhost:5000 ou http://localhost:5001 caso a porta 5000 ja esteja sendo usada.
 
 <h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/wendell-eloi-1a5324168/">Wendell Eloi</a></h2>

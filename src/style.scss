@@ -1,0 +1,16 @@
+@import "./styles/variables", "./styles/slider", "./styles/hightlight",
+  "./styles/contact", "./styles/map.scss", "./styles/footer",
+  "./styles/backToTopBtn.scss", "./styles/mediaScreen";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  font-family: $font-family_1;
+  user-select: none;
+}
+
+.show {
+  display: block !important;
+}

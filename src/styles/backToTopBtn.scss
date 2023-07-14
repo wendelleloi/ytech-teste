@@ -1,0 +1,16 @@
+.back-to-top-button {
+  border-radius: 50%;
+  background-color: $background-color_3;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+  z-index: 99999;
+  cursor: pointer;
+  display: none;
+  &:hover {
+    opacity: 0.75;
+  }
+}

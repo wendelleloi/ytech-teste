@@ -1,0 +1,19 @@
+#footer {
+  background: $black;
+}
+
+.footer-container {
+  max-width: 1024px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 auto;
+  color: $white;
+  a {
+    color: $white;
+    text-decoration: none;
+    font-family: $font-family_1;
+  }
+}
